@@ -49,7 +49,7 @@ def chain_request(symbol):
 
 '''
 The nested for loop below:
-1. Iterate over each symbol in the tickers dataframe and requests the associated options chain data from TDA's API
+1. Iterates over each symbol in the tickers dataframe and requests the associated options chain data from TDA's API
 2. Seperate the calls and puts into seperate objects
 3. Create a list of all call expirations and put expirations
 4. Iterate over each expiration date in the callindex and defines the "tablename" variable based on the current expiration being iterated over (expiration dates are the psql table names)
